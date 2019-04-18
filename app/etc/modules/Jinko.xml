@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Jinko_Jdata><!--模块名-->
+            <active>true</active><!--激活-->
+            <codePool>local</codePool><!--代码池-->
+        </Jinko_Jdata>
+    </modules>
+</config>

@@ -1,0 +1,35 @@
+<!--
+ 此文件为当前模块的配置文件
+-->
+<config>
+    <modules>
+        <Jinko_Jdata><!--此标签名就是模块名-->
+            <version>0.1.0</version><!--模块版本号-->
+        </Jinko_Jdata>
+    </modules>
+    <frontend><!--前端-->
+        <routers><!--路由-->
+            <jdata><!--名为为jdata的路由-->
+                <use>standard</use>
+                <args>
+                    <module>Jinko_Jdata</module><!--对应模块-->
+                    <frontName>jdata</frontName><!--前端url路径使用名称-->
+                </args>
+            </jdata>
+        </routers>
+    </frontend>
+    <global><!--全局配置-->
+        <helpers><!--定义辅助类工具-->
+            <jdata><!--定义名称为jdata的一个辅助类-->
+                <class>Jinko_Jdata_Helper</class><!--此辅助工具对应的php类名-->
+            </jdata>
+        </helpers>
+        <models><!--定义模型-->
+            <jdata><!--可以把它想象成是一个文件夹名字-->
+                <rewrite><!--重写model名对应的类名-->
+                    <data_api>Jinko_Jdata_Model_Data_Api</data_api><!--名称为data_api的model对应的类名-->
+                </rewrite>
+            </jdata>
+        </models>
+    </global>
+</config>

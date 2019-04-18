@@ -1,0 +1,45 @@
+<config>
+    <api><!--api 配置-->
+        <resources><!--资源列表-->
+            <jinkoapi_data translate="title" module="jdata"><!--api模块名称, 此名称用于soap client调用-->
+                <model>jdata/data_api</model><!--此api对应的处理model-->
+                <methods><!--此api模块有哪些调用的方法-->
+                    <get translate="title" module="jdata"><!--get方法, 此方法名用于soap client调用-->
+                        <acl>jinkoapi/data/get</acl><!--对应的权限是哪一项, 对应下面acl标签的设置-->
+                        <method>getData</method><!--显示指定使用php类中的方法, 如不使用则默认为get(标签名, 注意的是, 部分php关键字不能作为php类的方法, 如list, array)-->
+                    </get>
+                    <set translate="title" module="jdata"><!--同理-->
+                        <acl>jinkoapi/data/set</acl>
+                        <method>setData</method>
+                    </set>
+                </methods>
+                <faults module="jdata"><!--定义错误代码-->
+                    <set_error><!--错误代码名称, 用于model类中使用指定返回此错误-->
+                        <code>1001</code><!--错误代码-->
+                        <message>set error!</message><!--错误消息-->
+                    </set_error>
+                    <no_access><!--同理-->
+                        <code>1000</code>
+                        <message>No access!</message>
+                    </no_access>
+                </faults>
+            </jinkoapi_data>
+        </resources>
+        <acl><!--此acl对应于admin页面role管理页面(用户组管理页面)中的权限复选框-->
+            <resources>
+                <jinkoapi translate="title" module="jdata"><!--此标签名对应于上面acl标签的值-->
+                    <title>JinkoApi</title><!--复选框名称-->
+                    <data translate="title" module="jdata">
+                        <title>Data</title><!--复选框名称, 此复选框上一级为jinkoapi-->
+                        <get translate="title" module="jdata">
+                            <title>Get Data</title><!--复选框名称, 此复选框上一级为data-->
+                        </get>
+                        <set translate="title" module="jdata"><!--同理-->
+                            <title>Set Data</title>
+                        </set>
+                    </data>
+                </jinkoapi>
+            </resources>
+        </acl>
+    </api>
+</config>
