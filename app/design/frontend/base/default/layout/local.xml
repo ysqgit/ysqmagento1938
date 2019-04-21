@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<!-- <default> -->
+    <helloworld_index_index>
+        <reference name="root">
+            <block type="page/html" name="root" output="toHtml" template="helloworld/simple_page.phtml"/>
+            <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
+            <!-- <block type="page/template_links" name="top.links"/>
+        	</block> -->
+        </reference>
+    </helloworld_index_index>
+    <helloworld_index_goodbye>
+        <update handle="helloworld_index_index" />
+    </helloworld_index_goodbye>
+<!-- </default> -->
+</layout>
+

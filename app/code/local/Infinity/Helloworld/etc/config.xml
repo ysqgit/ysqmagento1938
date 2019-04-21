@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>    
+    <modules>
+        <Infinity_Helloworld>
+            <version>0.2.0</version>
+        </Infinity_Helloworld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Infinity_Helloworld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>  
+    </frontend>
+</config>
