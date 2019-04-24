@@ -56,4 +56,9 @@ class Mage_Adminhtml_Block_Sales_Order_Create_Comment extends Mage_Adminhtml_Blo
         }
         return false;
     }
+
+    public function getFreegiftNote()
+    {
+        return $this->escapeHtml($this->getQuote()->getCustomerNote());
+    }
 }

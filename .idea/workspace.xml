@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11e20297-9505-424c-aee8-b156767ce8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---59d_LAYOUT_10EB59234D4B7FE7F256E744007883792" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---59d_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---f99_DB_PDO_MYSQL_DDL_log_visitor_info_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---f99_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---59d_LAYOUT_10EB59234D4B7FE7F256E744007883792" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---59d_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---f99_DB_PDO_MYSQL_DDL_log_visitor_info_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---f99_LAYOUT_1FD0DFC9AB944A605082649CF7A5AF268" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---59d_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---59d_Zend_LocaleC_en_US_currencynumber_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---59d_Zend_LocaleC_en_US_currencysymbol_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---59d_Zend_LocaleC_en_US_nametocurrency_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---f99_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---f99_Zend_LocaleC_en_US_currencynumber_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---f99_Zend_LocaleC_en_US_currencysymbol_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---f99_Zend_LocaleC_en_US_nametocurrency_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---59d_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---59d_Zend_LocaleC_en_US_currencynumber_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---59d_Zend_LocaleC_en_US_currencysymbol_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---59d_Zend_LocaleC_en_US_nametocurrency_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---f99_TRANSLATE_EN_US_FRONTEND_1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---f99_Zend_LocaleC_en_US_currencynumber_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---f99_Zend_LocaleC_en_US_currencysymbol_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---f99_Zend_LocaleC_en_US_nametocurrency_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---59d_CONFIG_GLOBAL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---59d_WIDGET_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---f99_CONFIG_GLOBAL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---f99_WIDGET_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---59d_CONFIG_GLOBAL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---59d_WIDGET_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---f99_CONFIG_GLOBAL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---f99_WIDGET_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---59d_Zend_LocaleC_en_US_currencysymbol_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---59d_Zend_LocaleC_en_US_currencytoname_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---59d_Zend_LocaleC_en_US_nametocurrency_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---59d_config_theme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---f99_Zend_LocaleC_en_US_nametocurrency_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---f99_config_theme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---59d_Zend_LocaleC_en_US_currencysymbol_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---59d_Zend_LocaleC_en_US_currencytoname_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---59d_Zend_LocaleC_en_US_nametocurrency_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---59d_config_theme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---f99_Zend_LocaleC_en_US_nametocurrency_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---f99_config_theme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---59d_CORE_CACHE_OPTIONS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---59d_Zend_LocaleC_en_US_currencytoregion_US" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---f99_CORE_CACHE_OPTIONS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---f99_Zend_LocaleC_en_US_currencysymbol_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---f99_Zend_LocaleC_en_US_currencytoname_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---59d_CORE_CACHE_OPTIONS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---59d_Zend_LocaleC_en_US_currencytoregion_US" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---f99_CORE_CACHE_OPTIONS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---f99_Zend_LocaleC_en_US_currencysymbol_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---f99_Zend_LocaleC_en_US_currencytoname_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_CONFIG_GLOBAL_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_CONFIG_GLOBAL_CRONTAB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_CONFIG_GLOBAL_INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_CONFIG_GLOBAL_STORES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_DB_PDO_MYSQL_DDL_catalog_product_entity_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---59d_PERMISSION_VARIABLE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---f99_CONFIG_GLOBAL_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---f99_CONFIG_GLOBAL_STORES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---f99_DB_PDO_MYSQL_DDL_catalog_product_entity_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---f99_PERMISSION_VARIABLE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---f99_Zend_LocaleC_en_US_currencytoregion_US" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_CONFIG_GLOBAL_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_CONFIG_GLOBAL_CRONTAB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_CONFIG_GLOBAL_INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_CONFIG_GLOBAL_STORES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_DB_PDO_MYSQL_DDL_catalog_product_entity_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---59d_PERMISSION_VARIABLE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---f99_CONFIG_GLOBAL_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---f99_CONFIG_GLOBAL_STORES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---f99_DB_PDO_MYSQL_DDL_catalog_product_entity_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---f99_PERMISSION_VARIABLE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---f99_Zend_LocaleC_en_US_currencytoregion_US" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---59d_CONFIG_GLOBAL_ADMINHTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---59d_CONFIG_GLOBAL_WEBSITES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---f99_CONFIG_GLOBAL_ADMINHTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---f99_CONFIG_GLOBAL_CRONTAB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---f99_CONFIG_GLOBAL_INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---f99_CONFIG_GLOBAL_WEBSITES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---59d_CONFIG_GLOBAL_ADMINHTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---59d_CONFIG_GLOBAL_WEBSITES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f99_CONFIG_GLOBAL_ADMINHTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f99_CONFIG_GLOBAL_CRONTAB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f99_CONFIG_GLOBAL_INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---f99_CONFIG_GLOBAL_WEBSITES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---59d_STORE_ADMIN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---59d_Zend_LocaleC_de_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---59d_Zend_LocaleC_en_US_am_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---59d_Zend_LocaleC_en_US_pm_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---59d_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f99_STORE_ADMIN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f99_Zend_LocaleC_de_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f99_Zend_LocaleC_en_US_am_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f99_Zend_LocaleC_en_US_pm_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---f99_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---59d_STORE_ADMIN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---59d_Zend_LocaleC_de_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---59d_Zend_LocaleC_en_US_am_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---59d_Zend_LocaleC_en_US_pm_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---59d_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f99_STORE_ADMIN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f99_Zend_LocaleC_de_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f99_Zend_LocaleC_en_US_am_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f99_Zend_LocaleC_en_US_pm_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---f99_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---59d_CONFIG_GLOBAL_STORES_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---59d_STORE_DEFAULT_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---59d_STORE_FRENCH_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---59d_STORE_GERMAN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---59d_Zend_LocaleL_en_US_day_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f99_CONFIG_GLOBAL_STORES_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f99_STORE_DEFAULT_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f99_STORE_FRENCH_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f99_STORE_GERMAN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---f99_Zend_LocaleL_en_US_day_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---59d_CONFIG_GLOBAL_STORES_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---59d_STORE_DEFAULT_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---59d_STORE_FRENCH_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---59d_STORE_GERMAN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---59d_Zend_LocaleL_en_US_day_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f99_CONFIG_GLOBAL_STORES_ADMIN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f99_STORE_DEFAULT_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f99_STORE_FRENCH_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f99_STORE_GERMAN_CONFIG_CACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---f99_Zend_LocaleL_en_US_day_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_16265BD8BDFF462F9665914501A6120B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_63DB0573DF8D113D1E7552CBCF187073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_76473C915835F0F46FEEA073D30DE911" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_CONFIG_GLOBAL_STORES_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_CONFIG_GLOBAL_STORES_FRENCH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_CONFIG_GLOBAL_STORES_GERMAN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_DD32684FA7164C239228C2A172536BFB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_JAVASCRIPT_TRANSLATE_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_Zend_LocaleC_en_US_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---59d_Zend_LocaleL_en_US_month_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_76473C915835F0F46FEEA073D30DE911" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_CONFIG_GLOBAL_STORES_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_CONFIG_GLOBAL_STORES_FRENCH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_CONFIG_GLOBAL_STORES_GERMAN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_DD32684FA7164C239228C2A172536BFB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_JAVASCRIPT_TRANSLATE_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_Zend_LocaleC_en_US_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---f99_Zend_LocaleL_en_US_month_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_16265BD8BDFF462F9665914501A6120B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_63DB0573DF8D113D1E7552CBCF187073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_76473C915835F0F46FEEA073D30DE911" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_CONFIG_GLOBAL_STORES_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_CONFIG_GLOBAL_STORES_FRENCH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_CONFIG_GLOBAL_STORES_GERMAN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_DD32684FA7164C239228C2A172536BFB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_JAVASCRIPT_TRANSLATE_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_Zend_LocaleC_en_US_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---59d_Zend_LocaleL_en_US_month_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_76473C915835F0F46FEEA073D30DE911" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_CONFIG_GLOBAL_STORES_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_CONFIG_GLOBAL_STORES_FRENCH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_CONFIG_GLOBAL_STORES_GERMAN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_DD32684FA7164C239228C2A172536BFB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_JAVASCRIPT_TRANSLATE_CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_Zend_LocaleC_en_US_time_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---f99_Zend_LocaleL_en_US_month_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---59d_5F469EB0DDEA3E9955CBF0050FEF4EC3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---59d_6CA551CCD6FD02EBA73F2375E1BD7F14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---59d_76D390DEB6D0C640F81FDE756C97A9EB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---59d_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---f99_16265BD8BDFF462F9665914501A6120B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---f99_63DB0573DF8D113D1E7552CBCF187073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---f99_76D390DEB6D0C640F81FDE756C97A9EB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---f99_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---59d_5F469EB0DDEA3E9955CBF0050FEF4EC3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---59d_6CA551CCD6FD02EBA73F2375E1BD7F14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---59d_76D390DEB6D0C640F81FDE756C97A9EB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---59d_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---f99_16265BD8BDFF462F9665914501A6120B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---f99_63DB0573DF8D113D1E7552CBCF187073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---f99_76D390DEB6D0C640F81FDE756C97A9EB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---f99_CF5E01BBFA5CDAE34EF9D100B9A8F0A6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---59d_Zend_LocaleL_en_US_symbols_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---f99_Zend_LocaleL_en_US_symbols_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---59d_Zend_LocaleL_en_US_symbols_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---f99_Zend_LocaleL_en_US_symbols_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---59d_APP_E4D52B98688947405EDE639E947EE03D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---59d_APP_E4D52B98688947405EDE639E947EE03D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---59d_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---59d_APP_B1FB6E8F13287C01E5C05063633DDA4C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---59d_DB_PDO_MYSQL_DDL_eav_attribute_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---f99_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---f99_APP_B1FB6E8F13287C01E5C05063633DDA4C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---f99_APP_E4D52B98688947405EDE639E947EE03D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---f99_DB_PDO_MYSQL_DDL_eav_attribute_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---59d_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---59d_APP_B1FB6E8F13287C01E5C05063633DDA4C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---59d_DB_PDO_MYSQL_DDL_eav_attribute_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---f99_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---f99_APP_B1FB6E8F13287C01E5C05063633DDA4C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---f99_APP_E4D52B98688947405EDE639E947EE03D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---f99_DB_PDO_MYSQL_DDL_eav_attribute_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_1904F0EDBF20821C3CED77D81357F90501C4CAFA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_1D6F9AD88E34ED621362EC56DB4DD2E958643429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_2819E395A37B47A530EEEC34E747DD82596F9540" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_75988648256852ACFBE58475DDCDAC949DB55BE7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_8E04C6B40D09885DC781B85E2BF0915B883BDD10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_999360A582B3A8D39CC2E92461430B8ACC863211" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---59d_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---f99_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---f99_1904F0EDBF20821C3CED77D81357F90501C4CAFA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---f99_75988648256852ACFBE58475DDCDAC949DB55BE7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---f99_8E04C6B40D09885DC781B85E2BF0915B883BDD10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---f99_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_1904F0EDBF20821C3CED77D81357F90501C4CAFA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_1D6F9AD88E34ED621362EC56DB4DD2E958643429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_2819E395A37B47A530EEEC34E747DD82596F9540" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_75988648256852ACFBE58475DDCDAC949DB55BE7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_8E04C6B40D09885DC781B85E2BF0915B883BDD10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_999360A582B3A8D39CC2E92461430B8ACC863211" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---59d_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---f99_0A52CE5F952E81B0E074C55EFD597EFCC01016DE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---f99_1904F0EDBF20821C3CED77D81357F90501C4CAFA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---f99_75988648256852ACFBE58475DDCDAC949DB55BE7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---f99_8E04C6B40D09885DC781B85E2BF0915B883BDD10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---internal-metadatas---f99_LAYOUT_FRONTEND_STORE1_RWD_DEFAULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---59d_Zend_LocaleC_en_US_parentlocale_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---f99_1D6F9AD88E34ED621362EC56DB4DD2E958643429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---f99_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---f99_Zend_LocaleC_en_US_parentlocale_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---59d_Zend_LocaleC_en_US_parentlocale_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f99_1D6F9AD88E34ED621362EC56DB4DD2E958643429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f99_9F48C8F83D379346BEA4C6615E0E7BF8FD6A126D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---f99_Zend_LocaleC_en_US_parentlocale_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_11641d569c27f2e4320dc21a602c3430" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_165252bc60550773d08c6e02358f49f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_233306a97224d0a9d4f099ec0246bc5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_9a5c9dd71cc5f692e50784e65e182ca2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_e2212a558ce34c5e0aa1436d45c5b98c" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Infinity_Order.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/etc/modules/Infinity_Order.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/order.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sales.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12190">
+              <caret line="530" column="26" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RELEASE_NOTES.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187266">
+              <caret line="8142" column="32" selection-start-line="8142" selection-start-column="32" selection-end-line="8142" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/Block/Create/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/order/custom.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getSalesOrderViewInfo</find>
+      <find>commn</find>
+      <find>adminhtml_sales_order_create</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/etc/modules/Infinity_Createorder.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/createorder/custom.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Createorder/Block/Create/Order.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Createorder/Model/Observer.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Createorder/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Infinity_Order.xml" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Order/Model/Observer.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/order/custom.phtml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Order/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Infinity/Order/Block/Create/Order.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/order.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adminhtml" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="sales" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysqmagento1938" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysqmagento1938" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/local/Infinity/Createorder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11e20297-9505-424c-aee8-b156767ce8a1" name="Default" comment="" />
+      <created>1555841143656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555841143656</updated>
+      <workItem from="1555841148208" duration="11131000" />
+      <workItem from="1555889161925" duration="209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11340000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Infinity_Order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sales.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12190">
+          <caret line="530" column="26" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187266">
+          <caret line="8142" column="32" selection-start-line="8142" selection-start-column="32" selection-end-line="8142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/Block/Create/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/order/custom.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Transactions/Child/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Creditmemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Creditmemo/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" selection-start-line="31" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/report/1498277699309" />
+    <entry file="file://$PROJECT_DIR$/var/report/704797504767" />
+    <entry file="file://$PROJECT_DIR$/var/report/1367587282208" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="887">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/report/532100320934" />
+    <entry file="file://$PROJECT_DIR$/var/report/681462170862">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" selection-start-column="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Infinity_Order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/comment.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/Create/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/order/custom.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/Model/Observer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/view/info.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Infinity/Order/Block/Create/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RELEASE_NOTES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187266">
+          <caret line="8142" column="32" selection-start-line="8142" selection-start-column="32" selection-end-line="8142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/sales.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12190">
+          <caret line="530" column="26" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/create/data.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

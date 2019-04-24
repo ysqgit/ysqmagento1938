@@ -77,6 +77,11 @@
             <div id="order-totals" class="order-totals"><?php echo $this->getChildHtml('totals') ?></div>
         </div>
         <div class="clear"></div>
+        <div class="box-left entry-edit">
+            <div class="entry-edit-head"><h4><?php echo Mage::helper('sales')->__('Increment_id') ?></h4></div>
+            <fieldset id="order-comment"><?php echo $this->getChildHtml('order_create_order') ?></fieldset>
+        </div>
+        <div class="clear"></div>
     </td>
 </tr>
 </table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Infinity_Order>
+            <version>0.2.0</version>
+        </Infinity_Order>
+    </modules>
+
+    <adminhtml>
+        <!--<events>-->
+            <!--<core_block_abstract_to_html_after>-->
+                <!--<observers>-->
+                    <!--<order_custom_order_view_info>-->
+                        <!--<class>order/observer</class>-->
+                        <!--<method>getSalesOrderViewInfo</method>-->
+                    <!--</order_custom_order_view_info>-->
+                <!--</observers>-->
+            <!--</core_block_abstract_to_html_after>-->
+        <!--</events>-->
+
+        <layout>
+            <updates>
+                <Infinity_Order module="Infinity_Order">
+                    <file>order.xml</file>
+                </Infinity_Order>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

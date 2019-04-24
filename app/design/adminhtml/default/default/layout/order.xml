@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout version="1.0">
+    <!-- Adding the block in sales/order/view page -->
+    <!--<adminhtml_sales_order_view>-->
+        <!--&lt;!&ndash; You can change the reference to whatever you like. Look ate layout/sales.xml for more options &ndash;&gt;-->
+        <!--&lt;!&ndash; This should be same in Model/Observer.php::getSalesOrderViewInfo() &ndash;&gt;-->
+        <!--<reference name="order_info">-->
+            <!--<block type="order/create_order" name="order.create.order" template="order/custom.phtml" before="order_history" />-->
+        <!--</reference>-->
+    <!--</adminhtml_sales_order_view>-->
+
+    <adminhtml_sales_order_create_index>
+        <adminhtml_sales_order_create_load_block_data>
+
+        <block type="order/create_order" name="order_create_order" template="order/custom.phtml"/>
+        </adminhtml_sales_order_create_load_block_data>
+    </adminhtml_sales_order_create_index>
+    <adminhtml_sales_order_create_load_block_data>
+            <block type="adminhtml/sales_order_create_data" template="sales/order/create/data.phtml" name="data">
+            <block type="order/create_order" name="order_create_order" as= "order" template="order/custom.phtml"/>
+            </block>
+        </reference>
+    </adminhtml_sales_order_create_load_block_data>
+</layout>
